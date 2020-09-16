@@ -122,9 +122,29 @@ a {
     float: right;
     color: #3a3a3a;
     font-weight: bold;
-    font-size: .80em;
+    font-size: .80em;  
     
-    
+}
+
+.bottom-nav {
+    margin-bottom: 1.4em;
+    float: right;     
+}
+
+.bottom-nav li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.bottom-nav a {
+    color: #3a3a3a;
+    font-weight: bold;
+    font-size: .80em  
+}
+
+.bottom-nav {
+    visibility: hidden;
 }
 
 .clearfix::after {
@@ -135,7 +155,7 @@ a {
 
 /* ========== Media queries  ==========  */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .main-nav li {
      display: inline-block;
      margin-left: 0px;
@@ -188,6 +208,14 @@ a {
     max-width: 96%;
 }
 
+    .backtop {
+        visibility: hidden;
+    }
+
+    .bottom-nav {
+    visibility: visible;
+}
+
     .clearfix::after {
 		content: "";
 		display: table;
@@ -197,7 +225,7 @@ a {
 }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
     .nav .logo {
       float: left;
