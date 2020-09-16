@@ -255,6 +255,11 @@ a {
     }
 
 
+  .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 
 
 
@@ -267,9 +272,5 @@ a {
 
 
 
-  .clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+
 
