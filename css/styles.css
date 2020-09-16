@@ -99,6 +99,7 @@ a {
     text-align: center;
     }
 
+
 .contact {
     text-align: center;
     background-color: #d8d8d8;
@@ -179,6 +180,11 @@ a {
         
     
     }
+    .seven img {
+    
+    max-width: 100%;
+
+}
 
     .paragraph {
         float: left;
