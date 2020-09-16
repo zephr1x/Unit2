@@ -237,7 +237,8 @@ a {
     }
      
     .paragraph {
-        width: 50%;
+        width: 40%;
+        padding-top: 2em;
     }
 
 
