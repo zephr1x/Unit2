@@ -238,9 +238,12 @@ a {
      
     .paragraph {
         width: 40%;
-        padding-top: 4em;
+        padding-top: 3em;
     }
-
+    
+    p {
+        font-size: .96em;
+    }
 
     .container {
         width: 96%;
