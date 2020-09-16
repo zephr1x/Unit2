@@ -238,6 +238,7 @@ a {
 
     .container {
         width: 96%;
+        max-width: 1150px;
         
         
     }
