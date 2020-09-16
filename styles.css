@@ -19,6 +19,7 @@ p {
 img {
     max-width: 100%;
     margin-top: 2em;
+    
 }
 
 
@@ -39,6 +40,7 @@ ul {
 ul {
     list-style-type: none;
 }
+
 
 
 a {
@@ -93,10 +95,12 @@ a {
     
 }
 
+/* ========== CONTAINERS ==========  */
 
 .container {
 	padding-left: .90em;
     padding-right: .90em;
+    margin: 0 auto;
     text-align: center;
     }
 
@@ -111,9 +115,7 @@ a {
 
 /* ========== FOOTER ==========  */
 
-.main-footer {
-    margin-bottom: 5px;
-}
+
 
 .logo-bottom {
     float: left;
@@ -121,6 +123,7 @@ a {
     font-weight: bold;
     font-size: .80em;
     margin-top: 0;
+    
 }
 
 
@@ -133,8 +136,139 @@ a {
     
 }
 
+
 .clearfix::after {
 		content: "";
 		display: table;
 		clear: both;
 	}
+
+/* ========== Media queries  ==========  */
+
+@media (min-width: 769px) {
+    .main-nav li {
+     display: inline-block;
+     margin-left: 0px;
+
+    }
+
+    .main-nav a {
+        color: whitesmoke;
+        background-color: crimson;
+        margin-left: 10px;
+        padding: 10px 15px;
+        margin: 0;
+    }
+
+      .container {
+        width: 96%;
+        
+    
+    }
+
+
+ 
+    .paragraph {
+        float: left;
+        width: 55%;
+        margin-top: 60px;
+        text-align: left;
+        font-size: 1.1em;
+
+    }
+
+    .profile-img {
+        float: right;
+        width: 40%;
+        margin-top: 60px;
+        
+
+    }
+
+
+    .col {
+    float:left;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth {
+    width: 50%
+    
+    }
+
+    img {
+    max-width: 96%;
+
+    
+    
+}
+
+    .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+
+
+}
+
+
+@media (min-width: 1025px) {
+
+   
+
+    .nav .logo {
+      float: left;
+    }
+    .main-nav{
+        float: right;
+        padding-top: 1.5em;
+        
+    }
+     
+    .paragraph {
+        width: 50%;
+    }
+
+
+    .container {
+        width: 96%;
+        
+        
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth {
+    width: 33.3%
+    
+    
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+  .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
