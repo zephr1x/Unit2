@@ -131,6 +131,10 @@ a {
     float: right;     
 }
 
+.bottom-nav ul{
+    margin-right: 0;
+}
+
 .bottom-nav li{
     display: inline-block;
     margin-left: 20px;
@@ -216,18 +220,12 @@ a {
     visibility: visible;
 }
 
-    .clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-
 }
 
 
 @media (min-width: 1024px) {
 
-    .nav .logo {
+    .logo {
       float: left;
     }
     .main-nav{
@@ -263,11 +261,7 @@ a {
     
     }
 
-  .clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+
 
 }
 
